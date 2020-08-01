@@ -1,0 +1,25 @@
+body {
+	font-family: 'Lora', serif;
+}
+h1 {
+	text-align: center;
+	color:brown;
+	padding: 15px;
+}
+.carousel-item{
+	height: 400px;
+}
+#background{
+	height: 300px;
+	margin: 10px;
+}
+#txt{
+	border: solid 2px black;
+}
+.foot {
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+	background-color: #D5DBDB;
+	margin: 20px;
+}

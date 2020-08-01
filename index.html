@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Open Yourself</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Project.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+      		<div class="container">
+        		<div class="navbar-header">
+        			<img id="img" src="images/img.png">
+          			<div class="navbar-brand">
+            			<p class="menu">Open Yourself</p>
+          			</div>
+          			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            			<span class="sr-only">Toggle navigation</span>
+            			<span class="icon-bar"></span>
+            			<span class="icon-bar"></span>
+            			<span class="icon-bar"></span>
+          			</button>
+        		</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+           			<ul id="nav-list" class="nav navbar-nav navbar-right">
+            			<li>
+              				<a href="Home.html">
+                			<span class="C1"></span><br class="hidden-xs">Home</a>
+            			</li>
+            			<li>
+              				<a href="search.html">
+                			<span class="C2"></span><br class="hidden-xs">Search</a>
+            			</li>
+            			<li>
+              				<a href="notification.html">
+                			<span class="C3"></span><br class="hidden-xs">Notification</a>
+            			</li>
+            			<li>
+              				<a href="sign.html">
+                			<span class="C4"></span><br class="hidden-xs">Sign Up</a>
+            			</li>
+          			</ul>
+        		</div>
+      		</div>
+    	</nav>
+	</header>
+	<div id="id01">
+        <form id="p1" class="modal-content animate" action="/action_page.php" method="post"> 
+          	<div class="contain">
+            	<h1><b>Login</b></h1>
+            	<label for="uname"><b>Username</b></label>
+      			<input type="text" placeholder="Enter Username" name="uname" required>
+      			<label for="psw"><b>Password</b></label>
+      			<input type="password" placeholder="Enter Password" name="psw" required>  
+      			<button type="submit">Login</button>
+      			<label>
+      		  		<input type="checkbox" checked="checked" name="remember"> Remember me
+      			</label>
+          	</div>
+          	<div class="contain" style="background-color:#f1f1f1">
+            	<button type="button" onclick="myFunction()" class="cancelbtn">Cancel</button>
+			</div>
+        </form>
+    </div>
+	<footer class="foot">
+		<p>Copyright &copy; Open Yourself 2020. All Rights Reserved</p>
+		<p>Made in &hearts; India</p>
+	</footer>
+	<script src="jquery-1.11.3.min.js"></script>
+  	<script src="bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+h1 {
+	text-align: center;
+	color:brown;
+	margin: 5px;
+}
+#search {
+	height: 70px;
+}
+#heading {
+	color: #AF7AC5;
+}
+.foot {
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+	background-color: #D5DBDB;
+}
