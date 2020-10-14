@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 6B</title>
+	<style>
+		form{
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<center>
+			<h1>Union Public Service Commission</h1>
+			<p>Application Form For Civil Services Examination 2021</p>
+			<nav>
+				||<a href="#">Registration</a>||
+				<a href="#">Payment</a>||
+				<a href="#">Center Selection</a>||
+				<a href="#">Photo,Sign & Photo Identity Card Upload</a>||
+				<a href="#">Agreeing to Declaration</a>||
+			</nav>
+		</center>
+	</header><br><br>
+	
+	<div class="container">
+		<form action="" method="get">
+			<fieldset>
+				<legend>Personal Information</legend>
+				Name:
+				<input type="text" placeholder="Enter First Name" accept="fname" size="30" name="fname" required="fname">
+				<input type="text" placeholder="Enter Middle Name" accept="mname" size="30" name="mname" required="mname">
+				<input type="text" placeholder="Enter Last Name" accept="lname" size="30" name="lname" required="lname"><br><br>
+				Gender:
+				<input type="radio" name="gender" value="male">
+				<label for="name">Male</label>
+				<input type="radio" name="gender" value="female">
+				<label for="name">Female</label><br><br>
+				Date Of Birth:
+				<input type="date" name="birthday"><br><br>
+				Father's Name:
+				<input type="text" name="father" size="30"><br><br>
+				Mother's Name:
+				<input type="text" name="mother" size="30"><br><br>
+				Nationality:
+				<input list="nationality" name="nation">
+				<datalist id="nationality">
+					<option value="British">
+					<option value="Scottish">
+					<option value="Danish">
+					<option value="Finnish">
+					<option value="Swedish">
+					<option value="Indian">
+					<option value="Austrian">
+					<option value="Belgaian">
+					<option value="German">
+					<option value="American">
+					<option value="Russian">
+					<option value="Polish">
+					<option value="Romanian">
+					<option value="Greek">
+					<option value="New Zealander">
+				</datalist><br><br>
+				Marital Status:
+				<input type="radio" name="marital" value="married">
+				<label for="name1">Married</label>
+				<input type="radio" name="marital" value="unmarried">
+				<label for="name2">Unmarried</label>
+				<input type="radio" name="marital" value="widowed">
+				<label for="name3">Widowed</label>
+				<input type="radio" name="marital" value="divorced">
+				<label for="name4">Divorced</label><br><br>
+				Candidates of Persons with Benchmark Disability:
+				<select name="status">
+					<option>Select Option</option>
+					<option>Yes</option>
+					<option>No</option>
+				</select><br><br>
+				Community:
+				<select name="community">
+					<option>Select Community</option>
+					<option>EWS</option>
+					<option>General</option>
+					<option>OBC</option>
+					<option>SC</option>
+					<option>ST</option>
+				</select><br><br>
+				Do you belong to Minority:
+				<select name="minority">
+					<option>Select Minority</option>
+					<option>Yes</option>
+					<option>No</option>
+				</select><br><br>
+				Fee Remission Allowed:
+				<select name="fee">
+					<option>Select Option</option>
+					<option>Yes</option>
+					<option>No</option><br><br>
+				</select><br><br>
+			</fieldset><br>
+			<fieldset>
+				<legend>Educational Qualification</legend>
+				Select your educational qualifications:
+				<input type="checkbox" name="graduation" value="graduation">
+				<label for="degree1">Graduation</label>
+				<input type="checkbox" name="undergraduation" value="undergraduation">
+				<label for="degree2">Under-Graduation</label><br><br>
+				Select your Degree Subject in Graduation:
+				<input list="degree" name="degree">
+				<datalist id="degree">
+					<option value="B.A.(Bachelor of Arts)">
+					<option value="B.Com. (Bachelor of Commerce)">
+					<option value="B.Sc. (Bachelor of Science)">
+					<option value="B.Ed. (Bachelor of Education)">
+					<option value="B.A.-B.Ed. Integrated Course">
+					<option value="B.Sc.-B.Ed. Integrated Course">
+					<option value="B.Tech.(Bachelor In Technology)">
+					<option value="BBA (Bachelor of Business Administration)">
+				</datalist><br><br>
+				Enter your College Name:
+				<input type="text" name="clgname" size="35"><br><br>
+				Enter your University Name:
+				<input type="text" name="uname" size="35"><br><br>
+				Enter Exam Seat Number:
+				<input type="Number" name="number"><br><br>
+				E-mail Address:
+				<input type="text" placeholder="eg.prachi.waware@gmail.com"  accept="mail" size="40" required="mail" name="mail"><br><br>
+				For which examination you like to be considered:
+				<select name="exam">
+					<option>Select Examination Preference</option>
+					<option>Civil Service Exam</option>
+					<option>Indian Forest Exam</option>
+					<option>Civil Service And Indian Forest Exam</option>
+				</select> <br><br>
+			</fieldset><br>
+			<fieldset>
+				<legend>Address</legend>
+				Street Address:
+				<input type="text" name="street" size="35"><br><br>
+				City:
+				<input type="text" name="city" size="35"><br><br>
+				Tahasil:
+				<select  name="tahsil" id="tahsil">
+				  <optgroup label="Sangli">
+				    <option value="palus">Palus</option>
+				    <option value="tasgaon">Tasgaon</option>
+				    <option value="shirala">Shirala</option>
+				    <option value="walwa">Walwa</option>
+				    <option value="kadegaon">Kadegaon</option>
+				    <option value="khanapur">Khanapur</option>
+				  </optgroup>
+				  <optgroup label="Solapur">
+				    <option value="akkalkot">Akkalkot</option>
+				    <option value="barshi">Barshi</option>
+				    <option value="karmala">Karmala</option>
+				    <option value="madha">Madha</option>
+				    <option value="malshiras">Malshiras</option>
+				  </optgroup>
+				  <optgroup label="Kolhapur">
+				    <option value="radhanagri">Radhanagri</option>
+				    <option value="kagal">Kagal</option>
+				    <option value="shirol">Shirol</option>
+				    <option value="chandgad">Chandgad</option>
+				    <option value="panhala">Panhala</option>
+				  </optgroup>
+				</select><br><br>
+				District:
+				<select name="district">
+					<option>Select District</option>
+					<option>Sangli</option>
+					<option>Satara</option>
+					<option>Kolhapur</option>
+					<option>Solapur</option>
+					<option>Ahamadnagar</option>
+					<option>Akola</option>
+					<option>Beed</option>
+					<option>Amaravati</option>
+					<option>Chandrapur</option>
+				</select><br><br>
+				State:
+				<select name="state">
+					<option>Select State</option>
+					<option>Maharashtra</option>
+					<option>Kerala</option>
+					<option>Uttar Pradesh</option>
+					<option>Tamil Nadu</option>
+					<option>Punjab</option>
+					<option>Rajasthan</option>
+					<option>Bihar</option>
+					<option>Karnataka</option>
+				</select><br><br>
+				Zip Code/Postal:
+				<input type="Number" name="zip"><br><br>
+				Contact Number:
+				<input type="Number" name="contact" size="35"><br><br>
+			</fieldset><br><br>
+			Upload your identity proof:<br>
+			<label for="image">Upload Image Here:</label>
+			<input type="file" name="image" accept="image/jpeg,image/gif,image/png,application/pdf,image/x-eps"><br><br>
+			Any Queries:<br>
+			<textarea placeholder="Type any queries or any suggesstions.." rows="7" cols="70" maxlength="500"></textarea><br><br>
+			<button type="submit" name="submit" formaction="submit" onclick="myalert()">Submit</button>
+			<script>
+				function myalert()
+				{
+					alert("Form is submitted successfully");
+				}
+			</script>
+			<input type="reset" value="Reset">
+			
+		</form>
+	</div>
+	
+</body>
+</html>
