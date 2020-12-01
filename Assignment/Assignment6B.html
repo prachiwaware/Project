@@ -2,15 +2,19 @@
 <html>
 <head>
 	<title>Assignment 6B</title>
+	<link rel="stylesheet" type="text/css" href="Assignment9.css">
 	<style>
 		form{
 			font-size: 20px;
+			border-style: groove;
+			border-color: #17202A;
+			padding: 20px;
+			margin: 30px;
 		}
 	</style>
 </head>
 <body>
-	<header>
-		<center>
+	<header style="text-align: center;color: #4A235A">
 			<h1>Union Public Service Commission</h1>
 			<p>Application Form For Civil Services Examination 2021</p>
 			<nav>
@@ -20,7 +24,6 @@
 				<a href="#">Photo,Sign & Photo Identity Card Upload</a>||
 				<a href="#">Agreeing to Declaration</a>||
 			</nav>
-		</center>
 	</header><br><br>
 	
 	<div class="container">
@@ -197,7 +200,7 @@
 			Upload your identity proof:<br>
 			<label for="image">Upload Image Here:</label>
 			<input type="file" name="image" accept="image/jpeg,image/gif,image/png,application/pdf,image/x-eps"><br><br>
-			Any Queries:<br>
+			Any Queries:<br><br>
 			<textarea placeholder="Type any queries or any suggesstions.." rows="7" cols="70" maxlength="500"></textarea><br><br>
 			<button type="submit" name="submit" formaction="submit" onclick="myalert()">Submit</button>
 			<script>

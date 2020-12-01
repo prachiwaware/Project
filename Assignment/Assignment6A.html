@@ -2,17 +2,23 @@
 <html>
 <head>
 	<title>Assignment6A</title>
+	<link rel="stylesheet" type="text/css" href="Assignment9.css">
 	<style>
 		form{
 			width: 1000px;
 			font-size: 20px;
 			font-weight: bold;
+			border-style: groove;
+			border-color: #17202A;
+			padding: 20px;
+			margin: 30px;
+			margin-left: 130px;
 		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		<header>
+		<header style="color: #D35400;text-align: center;">
 			<h1>User feedback on product purchase</h1><hr><br>
 		</header>
 		
@@ -44,7 +50,7 @@
 			<input type="Number" name="zip"><br><br>
 			Contact Number:
 			<input type="Number" name="contact" size="35"><br><br>
-			Order/s (Amount-Item Name or Item Code-Color):<br>
+			Order/s (Amount-Item Name or Item Code-Color):<br><br>
 			<textarea placeholder="eg.2 - AVI003 - black; 7 - retro shades - black" rows="7" cols="70" maxlength="500"></textarea><br><br>
 			<label for="image">Upload Image Here:</label>
 			<input type="file" name="image" accept="image/jpeg,image/gif,image/png,application/pdf,image/x-eps"><br><br>
@@ -68,8 +74,9 @@
 				<option>Ewallets</option>
 				<option>Cash</option>
 			</select><br><br>
-			Notes:
+			Notes:<br><br>
 			<textarea placeholder="Comments/Suggestions" rows="7" cols="70" maxlength="500"></textarea><br><br>
+
 			<button type="submit" name="submit" formaction="submit" onclick="myalert()">Submit</button>
 			<script>
 				function myalert()
