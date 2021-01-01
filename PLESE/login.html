@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title> 
+        Login and Registration  
+    </title> 
+      
+    <link rel="stylesheet" type="text/css"href="style.css"> 
+    <script>
+    function validateForm() {
+    var x = document.forms["myForm"]["username"].value;
+    if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</head> 
+<body> 
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="info.html">Information</a></li>
+      <li><a href="#">Login</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+    <div class="header"> 
+        <h2 style="text-align: center;">Login Here!</h2> 
+    </div> 
+       
+    <form name="myForm" method="post" action="" onsubmit="return validateForm()">
+   
+        <div class="input-group"> 
+            <label>Enter Username</label> 
+            <input type="text" name="username" > 
+        </div> 
+        <div class="input-group"> 
+            <label>Enter Password</label> 
+            <input type="password" name="password"> 
+        </div> 
+        <div class="input-group"> 
+            <button type="submit" class="btn" name="login_user">Login </button> 
+        </div> 
+        <p> 
+            New Here?  
+            <a href="registration.html"> 
+                Click here to regsiter! 
+            </a> 
+        </p> 
+    </form> 
+    <footer>
+      <p>Copyright &copy; Prachi Sanjay Waware<br>Made in &hearts; India</p>
+    </footer>
+</body> 
+  
+</html> 
